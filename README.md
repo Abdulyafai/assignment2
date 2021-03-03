@@ -1,6 +1,10 @@
 # Software testing and QA
 
-### damn
+### Requirements
+- python 3
+- git
+
+### Run Code
 
 Clone this repo running this command ``` git clone https://github.com/Abdulyafai/assignment2.git ```
 
