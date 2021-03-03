@@ -1,2 +1,3 @@
-# assignment2
-Basic python functions unit tests to test the functions
+# Software testing and QA
+
+Clone this repo running this command ``` git clone ```
