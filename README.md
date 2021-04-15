@@ -10,5 +10,8 @@ Clone this repo running this command ``` git clone https://github.com/Abdulyafai
 
 open the folder using the command ``` cd assignment2 ```
 
+
 To run unittest file run the command ``` python3 test_assignment2.py ``` 
 To run the menu run the command ``` python3 menu.py ```
+
+Work flow
