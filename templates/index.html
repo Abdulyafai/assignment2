@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+#myDIV2 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<button onclick="myFunction()">Body Mass</button>
+<button onclick="myFunction2()">Retirement</button>
+
+<div id="myDIV">
+    <h3>Body mass Calculator</h3>
+
+    <form action="cal" method="POST">
+
+        <label for="bodyMass">Body Mass:</label>
+        <input type="number" id="bodyMass" placeholder="Body Mass ib" name="bodymass" />
+        <br>
+        <br>
+        <label for="Height">Height:</label>
+        <input type="number" id="Height" placeholder="height in ft" name="height" />
+        <br>
+        <br>
+        <input type="submit" value="Calculate">
+
+    </form>
+</div>
+
+<div id="myDIV2">
+  <h3>Retirement Calculator</h3>
+
+  <form action="calr" method="POST">
+
+      <label for="Age">Age:</label>
+      <input type="number" id="age" placeholder="years" name="age" />
+      <br>
+      <br>
+      <label for="Salary">Salary:</label>
+      <input type="number" id="Salary" placeholder="salary dollars" name="Salary" />
+      <br>
+      <br>
+      <label for="Percentage">Percentage:</label>
+      <input type="number" id="Percentage" placeholder="%" name="Percentage" />
+      <br>
+      <br>
+      <label for="goal">Saving goal:</label>
+      <input type="number" id="goal" placeholder="dollars" name="goal" />
+      <br>
+      <br>
+      <input type="submit" value="Calculaten">
+
+  </form>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+    function myFunction2() {
+      var x = document.getElementById("myDIV2");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+
+</body>
+</html>
