@@ -3,9 +3,7 @@
 
 name: Assignment2
 
-on:
-  release:
-    types: [created, push]
+on: [push, pull_request]
 
 jobs:
   deploy:
