@@ -17,7 +17,7 @@ while(True):
         height= input("type how many feet is your hight: ")
         print("your body mass is: " + str(bodymass(float(pounds), float(height))))
     elif (choice == "2"):
-        age = input("your age: ")
+        age = input("your age:: ")
         salay = input("Salary: ")
         percentage = input("Percentage: ")
         goal = input("Saving goal: ")
