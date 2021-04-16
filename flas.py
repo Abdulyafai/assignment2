@@ -37,7 +37,7 @@ def resul(res):
 
 @app.route("/<resr>")
 def resulr(resr):
-    return f"<h2>you are meeting your goal when you become: {res}</h2>"
+    return f"<h2>You are meeting your goal on: {res} years old</h2>"
 
 if __name__ == "__main__":
     app.run(debug=True)
