@@ -3,10 +3,6 @@ Flask==1.1.2
 httplib2==0.14.0
 pipenv==11.9.0
 pipreqs==0.4.10
-python-apt==2.0.0+ubuntu0.20.4.4
-python-debian===0.1.36ubuntu1
-PyYAML==5.3.1
-systemd-python==234
 unattended-upgrades==0.1
 urllib3==1.25.8
 virtualenv==20.0.17
